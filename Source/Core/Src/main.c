@@ -63,6 +63,7 @@ void displayAnalogClock(int hour, int minute, int second);
 //Update ex7
 //Update ex8
 //Update ex9
+//Update ex10
 
 void setNumberOnClock(int number){
 	if(number == 0){
