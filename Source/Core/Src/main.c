@@ -59,6 +59,9 @@ void displayAnalogClock(int hour, int minute, int second);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+
+//Update ex7
+
 void setNumberOnClock(int number){
 	if(number == 0){
 		HAL_GPIO_WritePin(LED0_GPIO_Port, LED0_Pin, GPIO_PIN_SET);
